@@ -1,5 +1,5 @@
-$primary-color:red;
-$seconde-color:blue;
+$primary-color:blue;
+$seconde-color:red;
 $third-color: white;
 
 
@@ -169,8 +169,63 @@ body{
         background-color: $primary-color;
     }
     .column-31{
-        grid-column: 12/14;
+        grid-column: 1/14;
         grid-row-start:9 ;
+        background-color: $primary-color;
+    }
+    .column-32{
+        grid-column: 1/14;
+        grid-row-start:10 ;
+        background-color: $primary-color;
+    }
+    .column-33{
+        grid-column: 1/14;
+        grid-row-start:11 ;
+        background-color: $primary-color;
+    }
+    .column-34{
+        grid-column: 1/14;
+        grid-row-start: 12;
+        background-color: $primary-color;
+    }
+    .column-35{
+        grid-column: 1/3;
+        grid-row-start:13 ;
+        background-color: $primary-color;
+    }
+    .column-36{
+        grid-column: 4/6;
+        grid-row-start:13;
+        background-color: $primary-color;
+    }
+    .column-37{
+        grid-column: 8/11;
+        grid-row-start:13;
+        background-color: $primary-color;
+    }
+    .column-38{
+        grid-column: 12/14;
+        grid-row-start:13;
+        background-color: $primary-color;
+    }
+    .column-39{
+        grid-column: 1/2;
+        grid-row-start:14;
+        background-color: $primary-color;
+    }
+    .column-40{
+        grid-column: 5/6;
+        grid-row-start:14;
+        background-color: $primary-color;
+    }
+    .column-41{
+        grid-column: 8/10;
+        grid-row-start:14;
+        background-color: $primary-color;
+    }
+    .column-42{
+        grid-column: 13/14;
+        grid-row-start:14;
         background-color: $primary-color;
     }
     }
