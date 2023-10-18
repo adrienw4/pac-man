@@ -10,6 +10,8 @@ body {
   display: grid;
   grid-template-columns: repeat(14, 50px);
   grid-template-rows: repeat(14, 50px);
+  animation: MoveUpDown 1s linear infinite;
+  position: absolute;
 }
 .fantome .column-1 {
   grid-column: 6/9;
@@ -220,6 +222,15 @@ body {
   grid-column: 13/14;
   grid-row-start: 14;
   background-color: blue;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 20px;
+  }
+  50% {
+    bottom: 150px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

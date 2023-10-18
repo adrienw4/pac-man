@@ -17,6 +17,8 @@ body{
     display:grid;
     grid-template-columns: repeat(14,50px);
     grid-template-rows: repeat(14,50px);
+    animation: MoveUpDown 1s linear infinite;
+    position: absolute;
      .column-1{
             grid-column:6/9;
             grid-row-start:1 ;
@@ -229,4 +231,11 @@ body{
         background-color: $primary-color;
     }
     }
-
+    @keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 20px;
+    }
+    50% {
+      bottom: 150px;
+    }
+  }
